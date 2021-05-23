@@ -1,0 +1,226 @@
+
+#booking_table {
+	color:black;
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#booking_table td, #booking_table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#booking_table tr:nth-child(even){background-color: #f2f2f2;}
+
+#booking_table tr:hover {background-color: #ddd;}
+
+#booking_table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+
+#button_green {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+body{
+    color:black;
+    margin:0;
+}
+figure{
+    opacity: 0.9;
+}
+
+section{
+	position: absolute;
+	background-color: whitesmoke;
+    opacity: 0.7;
+    margin: 5% 60% 2% 3%;
+    height: 100%;
+    padding: 1.5%;
+    border-radius: 25px;
+    overflow-y: scroll;
+
+}
+::-webkit-scrollbar {
+    background-color: grey;
+  width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #2a9d8f;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #185346;
+}
+p{
+    margin: 20px;
+
+    color: black;
+    font-family: Verdana;
+    font-size: 100%;
+}
+#Lorem{
+	    font-size: 160%;
+
+}
+@font-face{
+    font-family: "Roboto";
+    src: url('../font/Roboto-Black.ttf');
+}
+#switch{
+    float:right;
+    cursor: pointer;
+    color:white;
+    font-size: 140%;
+    padding: 10px 11px;
+    transition-duration: 0.4s;
+}
+
+#switch:hover{
+    background-color: #b6cec7;
+}
+
+header navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #627994;
+    font-family: Roboto;
+    font-size: 20px;
+}
+
+header nav {
+    width: 10%;
+    float:left;
+    text-align: center;
+}
+
+header nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition-duration: 0.4s;
+}
+
+header navbar nav a:hover{
+    background-color: #B6CEC7;
+}
+
+.active{
+    background-color: #2a9d8f;
+}
+#btn-id{
+    display:none;
+}
+
+#button_add{
+	  margin-left: 300px;
+
+	margin-top:30px;
+	margin-bottom:30px;
+    padding: 10px 11px;
+    border: none;
+    border-radius: 8px;
+    width: 20%;
+    font-family: Roboto;
+    font-size: 100%;
+    color: #202020;
+    transition-duration: 0.4s;
+}
+#button_add:hover{
+    background-color: #2a9d8f;
+    color: white;
+}
+
+#button_small{
+	  margin-left: 300px;
+
+	margin-top:30px;
+	margin-bottom:30px;
+    padding: 10px 11px;
+    border: none;
+    border-radius: 8px;
+    width: 20%;
+    font-family: Roboto;
+    font-size: 100%;
+    color: #202020;
+    transition-duration: 0.4s;
+}
+button:hover{
+    background-color: #2a9d8f;
+    color: white;
+}
+
+button{
+    padding: 10px 11px;
+    border: none;
+    border-radius: 8px;
+    width: 90%;
+    font-family: Roboto;
+    font-size: 15px;
+    color: #202020;
+    transition-duration: 0.4s;
+}
+
+
+fieldset{
+    color: black;
+    font-family: Roboto;
+    font-size: 200%;
+}
+#map{
+    width: 100%;
+}
+#background-img{
+    display: none;
+}
+#booking{
+    color:black;
+    margin-top: 10%;
+}
+
+
+input{
+    margin-bottom: 2%;
+}
+
