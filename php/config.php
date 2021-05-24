@@ -1,10 +1,10 @@
 <?php
 
 //databasse log in info
-$databaseHost = 'localhost';
+$databaseHost = '127.0.0.1:53942';
 $databaseName = 'localdb';
-$databaseUsername = 'root';
-$databasePassword = '';
+$databaseUsername = 'azure';
+$databasePassword = '6#vWHD_$';
 
 //connecting to the database
 $mysqli = new mysqli($databaseHost, $databaseUsername, $databasePassword, $databaseName);
